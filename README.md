@@ -23,7 +23,7 @@ In each project run make -B docker-compose.yml
 
 Check the docker-compose.yml file that was created in each project and change the gateway settings located under networks at the very top of the file to 
 
-  driver: bridge 
+  driver: bridge  
   internal: false
   
   
