@@ -27,13 +27,13 @@ Check the docker-compose.yml file that was created in each project and change th
   internal: false
   
 
-Next run in each project's local-install-profile commands from make pull to docker-compose up -d --remove orphans. You can just put a hash character in front of each line you don't want to run to comment them out.
+Next run in each project's local-install-profile commands from make pull to docker-compose up -d --remove orphans. You can just put a hash character in front of each line you don't want to run to disable them.
 
 Then edit the docker-compose file in the multisite-helper directory and replace project1 in project1_default and project1_gateway to the name of your project. Ex. isle-dc_default and isle-dc_gateway.
 
 Replace project1domain.traefik.me and project2domain.traefik.me to whatever the domain names are in your projects. Ex. islandora.traefik.me
 
-Run docker-compose up -d
+In the multisite-helper directory run docker-compose up -d
 
 The Traefik container should now be up and running.
 
