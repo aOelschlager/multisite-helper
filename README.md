@@ -3,7 +3,7 @@
 This assumes you are using the local-install-profile in isle-dc
 
 
-To use the multisite-helper fisrt clone the repo.
+To use the multisite-helper first clone the repo.
 
 Next enter the multisite-helper directory.
 
