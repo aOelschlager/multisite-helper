@@ -21,7 +21,7 @@ Also make sure the include Traefik service variable is set to false.
 
 In each project run make -B docker-compose.yml
 
-Check the docker-compose.yml file that was created in each project and change the gateway settings located under networks at the very top of the file to 
+Check the docker-compose.yml file that was created in each project and change the gateway settings located under networks at the very top of the file to: 
 
   driver: bridge  
   internal: false
