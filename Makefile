@@ -1,4 +1,4 @@
-# Helper function pulled from isle-dc repo. Uses traefik.me certs to resolve local domain names without having to edit the etc/host file.
+# Helper function pulled from isle-dc repo. Uses traefik.me certs to resolve local domain names without having to edit the etc/hosts file.
 .PHONY: download-default-certs
 .SILENT: download-default-certs
 download-default-certs:
