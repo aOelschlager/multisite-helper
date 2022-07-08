@@ -1,3 +1,4 @@
+# This was pulled form the isle-dc repo. This is needed for Traefik to route https traffic.
 tls:
   stores:
     default:
