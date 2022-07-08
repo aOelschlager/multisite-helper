@@ -8,7 +8,7 @@
 # container needs to be on the project's `gateway` network, otherwise traefik will
 # discover it via Docker but will not be able to redirect traffic to it.
 # This was pulled from the isle-dc repo and altered so that each project can run on
-# it's own networks using just one Traefik container.
+# it's own network(s) using just one Traefik container.
 version: "3.7"
 services:
   traefik:
