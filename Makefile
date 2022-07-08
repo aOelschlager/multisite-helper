@@ -1,4 +1,4 @@
-# Helper function to generate keys for the user to use in their docker-compose.env.yml
+# Helper function pulled from isle-dc repo. Uses traefik.me certs to resolve local domain names without having to edit the etc/host file.
 .PHONY: download-default-certs
 .SILENT: download-default-certs
 download-default-certs:
