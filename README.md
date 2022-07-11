@@ -7,11 +7,11 @@ This assumes you are using the local-install-profile in isle-dc
 
 Next enter the multisite-helper directory.
 
-# This is using my forked repo of the isle-dc repo for a quicker setup. Instructions to use the isle-dc repo are after these
+***This is using my forked repo of the isle-dc repo for a quicker setup. Instructions to use the isle-dc repo are after these***
 
-For a quicker setup to demo you can clone the branch multi-project-example from my forked repo of isle-dc: git clone -b multi-project-example https://github.com/aOelschlager/isle-dc.git
+# For a quicker setup to demo you can clone the branch multi-project-example from my forked repo of isle-dc: git clone -b multi-project-example https://github.com/aOelschlager/isle-dc.git
 
-Or if you have Windows and generate secrets does not work for you, clone this forked repo: git clone -b multi-project-windows https://github.com/aOelschlager/isle-dc.git
+# Or if you have Windows and generate secrets does not work for you, clone this forked repo: git clone -b multi-project-windows https://github.com/aOelschlager/isle-dc.git
 
 Rename the directory and clone again.
 
