@@ -19,6 +19,10 @@ Make sure in each project directory your .env file that you created has a domain
 
 Also make sure the include Traefik service variable is set to false.
 
+Note: You may also need to put a traefik label for host rule in the following docker-compose files per project: activemq, blazegraph, fcrepo, fcrepo6, solr. Place the label below the entrypoint label in the file. This is an example for docker-compose.solr.yml (you need to change the service name to match the service referenced in the file):
+
+- traefik.http.routers.${COMPOSE_PROJECT_NAME-isle-dc}-solr_http.rule=Host(`${DOMAIN}`)
+
 In each project run make -B docker-compose.yml
 
 Check the docker-compose.yml file that was created in each project and change the gateway settings located under networks at the very top of the file to: 
