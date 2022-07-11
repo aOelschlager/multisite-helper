@@ -7,6 +7,30 @@ To use the multisite-helper first clone the repo.
 
 Next enter the multisite-helper directory.
 
+***This is using my forked repo of the isle-dc repo for a quicker setup. Instructions to use the isle-dc repo are after these***
+
+For a quicker setup to demo you can clone the branch multi-project-example from my forked repo of isle-dc: git clone -b multi-project-example https://github.com/aOelschlager/isle-dc.git
+
+Rename the directory and clone again.
+
+Change the domain name and composer project name in the env file located in the renamed directory (You have to copy the file from the sample.env file.)
+
+Enter one of the project directories and run make local-part-one. Repeate this step in the other directory.
+
+Then in the multisite-helper directory run make download-default-certs
+
+Then edit the docker-compose file in the multisite-helper directory and replace project1 in project1_default and project1_gateway to the name of your project. Repeate for project2. Ex. isle-dc_default and isle-dc_gateway.
+
+Replace project1domain.traefik.me and project2domain.traefik.me to whatever the domain names are in your projects. Ex. islandora.traefik.me
+
+Save the docker-compose file.
+
+In the multisite-helper directory run docker-compose up -d
+
+In one of the project directories run make local-part-two. When finished repeate this step in the other project directory.
+
+***This is using the isle-dc repo and a more manual setup***
+
 Clone isle-dc repository and rename it: git clone https://github.com/Islandora-Devops/isle-dc.git
 
 Clone another isle-dc repository: git clone https://github.com/Islandora-Devops/isle-dc.git
@@ -44,3 +68,5 @@ The Traefik container should now be up and running.
 Restart the drupal container in each project.
 
 Finally run the rest of the local-install-profile commands in each project starting from docker-compose exec -T drupal with-contenv bash -lc 'composer install; chown -R nginx:nginx .'
+
+
