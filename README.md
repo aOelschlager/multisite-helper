@@ -7,7 +7,7 @@ This assumes you are using the local-install-profile in isle-dc
 
 Next enter the multisite-helper directory.
 
-***This is using my forked repo of the isle-dc repo for a quicker setup. Instructions to use the isle-dc repo are after these***
+# This is using my forked repo of the isle-dc repo for a quicker setup. Instructions to use the isle-dc repo are after these
 
 For a quicker setup to demo you can clone the branch multi-project-example from my forked repo of isle-dc: git clone -b multi-project-example https://github.com/aOelschlager/isle-dc.git
 
@@ -31,7 +31,7 @@ In the multisite-helper directory run docker-compose up -d
 
 In one of the project directories run make local-part-two. When finished repeate this step in the other project directory.
 
-***This is using the isle-dc repo and a more manual setup***
+# This is using the isle-dc repo and a more manual setup
 
 Clone isle-dc repository and rename it: git clone https://github.com/Islandora-Devops/isle-dc.git
 
