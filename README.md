@@ -6,11 +6,11 @@ To use the multisite-helper first clone the repository
 
 Next enter the multisite-helper directory.
 
-# For a quicker setup to demo you can clone the branch multi-project-example from my forked repo of isle-dc
+# For a quicker setup to demo you can clone the branch multi-project-example from my forked repository of isle-dc
 
 git clone -b multi-project-example https://github.com/aOelschlager/isle-dc.git
 
-***Or if you have Windows and generate secrets does not work for you, clone this forked repo:*** git clone -b multi-project-windows https://github.com/aOelschlager/isle-dc.git
+***Or if you have Windows and generate secrets does not work for you, clone this forked repository:*** git clone -b multi-project-windows https://github.com/aOelschlager/isle-dc.git
 
 Rename the directory and clone again.
 
@@ -30,7 +30,7 @@ In the multisite-helper directory run docker-compose up -d
 
 In one of the project directories run make local-part-two. When finished repeate this step in the other project directory.
 
-# This is using the isle-dc repo and a more manual setup
+# This is using the isle-dc repository and a more manual setup
 
 Clone isle-dc repository and rename it: git clone https://github.com/Islandora-Devops/isle-dc.git
 
