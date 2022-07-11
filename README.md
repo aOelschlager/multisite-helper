@@ -11,6 +11,8 @@ Next enter the multisite-helper directory.
 
 For a quicker setup to demo you can clone the branch multi-project-example from my forked repo of isle-dc: git clone -b multi-project-example https://github.com/aOelschlager/isle-dc.git
 
+Or if you have Windows and generate secrets does not work for you, clone this forked repo: git clone -b multi-project-windows https://github.com/aOelschlager/isle-dc.git
+
 Rename the directory and clone again.
 
 Change the domain name and composer project name in the env file located in the renamed directory (You have to copy the file from the sample.env file.)
