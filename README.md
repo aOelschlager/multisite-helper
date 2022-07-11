@@ -1,9 +1,8 @@
-***This is just a proof of concept***
+# This is just a proof of concept
 
 This assumes you are using the local-install-profile in isle-dc
 
-
-# To use the multisite-helper first clone the repository
+To use the multisite-helper first clone the repository
 
 Next enter the multisite-helper directory.
 
